@@ -42,17 +42,3 @@ The script writes all generated artifacts to `outputs/`:
 
 The first four non-baseline classifiers satisfy the requirement for at least three predictive ML models. All preprocessing is inside sklearn Pipelines and is fitted only on training folds.
 
-## Before submission
-1. Run the script yourself and inspect every output.
-2. Use the actual values from your output files in the report. Do not copy example or invented metrics.
-3. Add your name, registration number, course details, faculty details and date to the report.
-4. Create your own GitHub commits, pull request(s), LinkedIn post and dated evidence.
-5. Be ready to explain the code and limitations in the individual viva.
-
-
-## Full analysis demonstration
-- Open `analysis_walkthrough.ipynb` in VS Code or Jupyter and run cells top-to-bottom.
-  It explains dataset profiling, cleaning, univariate/bivariate/multivariate EDA,
-  statistical tests, preprocessing, model lineup and result interpretation.
-- Follow `docs/COMPLETE_ANALYSIS_AND_DEMONSTRATION_GUIDE.md` for what to show,
-  what to explain to faculty, and a fill-in worksheet for actual findings.
