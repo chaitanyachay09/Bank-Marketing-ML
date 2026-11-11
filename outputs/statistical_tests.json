@@ -1,0 +1,17 @@
+{
+  "chi_square_test": {
+    "question": "Is job category associated with subscription?",
+    "chi2": 836.1448351240688,
+    "degrees_of_freedom": 10,
+    "p_value": 3.486711140869683e-173,
+    "cramers_v_effect_size": 0.1364289008309765
+  },
+  "mann_whitney_u": {
+    "question": "Does balance distribution differ between yes and no groups?",
+    "u_statistic": 124589983.5,
+    "p_value": 6.593845808689515e-101,
+    "median_balance_yes": 733.0,
+    "median_balance_no": 417.0
+  },
+  "interpretation_note": "A small p-value indicates evidence of association/difference, not causation. Report effect sizes and practical significance."
+}

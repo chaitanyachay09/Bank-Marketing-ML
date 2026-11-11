@@ -1,0 +1,50 @@
+{
+  "selected_model": "Random Forest",
+  "test_records": 9043,
+  "accuracy": 0.8680747539533341,
+  "precision": 0.44389027431421446,
+  "recall": 0.504725897920605,
+  "f1": 0.47235736399823086,
+  "roc_auc": 0.7910530496097953,
+  "pr_auc_average_precision": 0.44664318043193885,
+  "confusion_matrix_labels_0_no_1_yes": [
+    [
+      7316,
+      669
+    ],
+    [
+      524,
+      534
+    ]
+  ],
+  "classification_report": {
+    "no": {
+      "precision": 0.9331632653061225,
+      "recall": 0.9162179085785849,
+      "f1-score": 0.9246129541864139,
+      "support": 7985.0
+    },
+    "yes": {
+      "precision": 0.44389027431421446,
+      "recall": 0.504725897920605,
+      "f1-score": 0.47235736399823086,
+      "support": 1058.0
+    },
+    "accuracy": 0.8680747539533341,
+    "macro avg": {
+      "precision": 0.6885267698101685,
+      "recall": 0.710471903249595,
+      "f1-score": 0.6984851590923223,
+      "support": 9043.0
+    },
+    "weighted avg": {
+      "precision": 0.875920002620129,
+      "recall": 0.8680747539533341,
+      "f1-score": 0.8717006004963666,
+      "support": 9043.0
+    }
+  },
+  "best_model_selection_rule": "Highest 5-fold cross-validated F1 among non-baseline models; test set used once for final reporting.",
+  "excluded_feature": "duration",
+  "excluded_feature_reason": "Known only after the call; would cause post-outcome leakage for pre-call prediction."
+}

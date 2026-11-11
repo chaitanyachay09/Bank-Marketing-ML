@@ -1,0 +1,44 @@
+{
+  "rows": 45211,
+  "columns_including_target": 17,
+  "predictor_columns_before_exclusions": 16,
+  "duplicate_rows": 0,
+  "missing_values_by_column": {
+    "poutcome": 36959,
+    "contact": 13020,
+    "education": 1857,
+    "job": 288,
+    "age": 0,
+    "default": 0,
+    "balance": 0,
+    "housing": 0,
+    "marital": 0,
+    "loan": 0,
+    "day": 0,
+    "duration": 0,
+    "month": 0,
+    "campaign": 0,
+    "pdays": 0,
+    "previous": 0,
+    "y": 0
+  },
+  "target_counts": {
+    "no": 39922,
+    "yes": 5289
+  },
+  "target_percentages": {
+    "no": 88.3,
+    "yes": 11.7
+  },
+  "unknown_category_counts": {
+    "job": 0,
+    "marital": 0,
+    "education": 0,
+    "default": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 0,
+    "month": 0,
+    "poutcome": 0
+  }
+}

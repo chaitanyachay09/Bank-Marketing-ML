@@ -1,0 +1,8 @@
+1. Extract this ZIP.
+2. Open the extracted folder in VS Code.
+3. Open the integrated terminal.
+4. Create/activate .venv (see docs/STEP_BY_STEP_TUTORIAL.md).
+5. Run: pip install -r requirements.txt
+6. Run: python src/train.py
+7. Read outputs and fill docs/REPORT_TEMPLATE.md with your actual results.
+8. Complete genuine GitHub, LinkedIn and viva evidence.

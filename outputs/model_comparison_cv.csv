@@ -1,0 +1,6 @@
+model,cv_f1,best_parameters
+Random Forest,0.4607538207639264,"{""model__max_depth"": null, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5}"
+Decision Tree,0.3888748307604123,"{""model__max_depth"": 10, ""model__min_samples_leaf"": 5}"
+Logistic Regression,0.3653742052682025,"{""model__C"": 1.0}"
+HistGradientBoosting,0.3324987651478132,"{""model__learning_rate"": 0.1, ""model__max_iter"": 100, ""model__max_leaf_nodes"": 31}"
+Dummy baseline,0.0,"{""strategy"": ""most_frequent""}"
