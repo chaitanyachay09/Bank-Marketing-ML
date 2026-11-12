@@ -22,6 +22,21 @@ python src/train.py
 ```
 Internet is required on first run to fetch the official dataset using `ucimlrepo`.
 
+
+## Model Evaluation Metrics
+
+The performance of the machine learning models is evaluated using:
+
+- **Accuracy:** Measures the overall correctness of predictions.
+- **Precision:** Measures how many predicted positive cases are correct.
+- **Recall:** Measures how many actual positive cases are identified.
+- **F1-Score:** Provides a balance between precision and recall.
+- **ROC-AUC:** Measures the model's ability to distinguish between the two classes.
+- **Confusion Matrix:** Shows correct and incorrect predictions.
+
+These metrics help compare the performance of different classification models.
+
+
 ## Outputs
 The script writes all generated artifacts to `outputs/`:
 - data profile, missing-value summary, descriptive statistics and schema profile
