@@ -92,14 +92,15 @@ These results indicate that the model can identify potential subscribers, althou
 
 ## 7. Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-- Streamlit
+- Python – 3.15.2
+- Pandas – 3.1.1
+- NumPy – 2.4.2
+- Matplotlib – 3.11.2
+- Seaborn – 0.13.2
+- Scikit-learn – 1.9.1
+- Streamlit – 1.67.0
+- Plotly – 7.1.0
+- Jupyter Notebook – 7.6.3
 
 ## 8. Project Structure
 
