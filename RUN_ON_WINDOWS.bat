@@ -3,7 +3,7 @@ setlocal
 cd /d "%~dp0"
 
 echo ==============================================
-echo CSE570 Bank Marketing ML Project - Windows
+echo Bank Marketing ML Project - Windows
 echo ==============================================
 
 where py >nul 2>nul
