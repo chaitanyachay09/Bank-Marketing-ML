@@ -1,20 +1,3 @@
-"""
-CSE570: Bank Marketing Subscription Prediction
-Run from the project root: python src/train.py
-
-This script:
-1. Downloads the official UCI Bank Marketing dataset (dataset id 222).
-2. Profiles and cleans the data.
-3. Performs EDA and statistical tests.
-4. Splits data before fitting preprocessing.
-5. Trains a baseline and four ML models with 5-fold CV and compact tuning.
-6. Evaluates the selected model once on the untouched test set.
-7. Saves plots, tables, metrics, and the fitted model in outputs/.
-
-Important: duration is deliberately excluded because it is only known after
-the phone call. Including it would leak post-contact information into a
-pre-call prediction task, as UCI explicitly cautions.
-"""
 from pathlib import Path
 import json
 import warnings
