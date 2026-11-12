@@ -20,6 +20,7 @@ This project applies supervised machine learning techniques to analyze customer 
 ## 3. Dataset Description
 
 **Dataset:** UCI Bank Marketing Dataset (`bank-full`)
+**Source:** https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 | Property | Details |
 |---|---|
