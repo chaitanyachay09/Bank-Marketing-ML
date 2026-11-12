@@ -73,3 +73,39 @@ After the training script completes:
 
 The first run requires internet access to install packages and fetch the UCI data.
 Training time depends on your computer. Keep the terminal open until it finishes.
+
+Run the Streamlit Application
+
+After the training pipeline completes successfully, start the interactive prediction application:
+
+streamlit run app.py
+
+Streamlit will provide a local URL, generally:
+
+http://localhost:8501
+
+Open this URL in your browser.
+
+Application Functionality
+
+The application allows users to:
+
+Enter customer demographic information.
+
+Select employment and marital status.
+
+Provide financial and banking details.
+
+Enter campaign-related information.
+
+Submit customer details for prediction.
+
+View the predicted term deposit subscription result.
+
+View the estimated subscription probability when available.
+
+The application loads the trained model from:
+
+outputs/best_model.joblib
+
+Therefore, complete model training before launching the application.
